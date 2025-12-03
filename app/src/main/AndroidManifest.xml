@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoAndroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".Calculadora"
+            android:exported="false" />
+        <activity
+            android:name=".PruebaDivision"
+            android:exported="false" />
+        <activity
+            android:name=".PruebaMultiplicacion"
+            android:exported="false" />
+        <activity
+            android:name=".PruebaResta"
+            android:exported="false" />
+        <activity
+            android:name=".MainPrueba"
+            android:exported="false" />
+        <activity
+            android:name=".MainJuegos"
+            android:exported="false" />
+        <activity
+            android:name=".PruebaSuma"
+            android:exported="false" />
+        <activity
+            android:name=".Ayuda"
+            android:exported="false" />
+        <activity
+            android:name=".ExamenDivision"
+            android:exported="false" />
+        <activity
+            android:name=".ExamenMultiplicacion"
+            android:exported="false" />
+        <activity
+            android:name=".ExamenResta"
+            android:exported="false" />
+        <activity
+            android:name=".ExamenSuma"
+            android:exported="false" />
+        <activity
+            android:name=".MainExamen"
+            android:exported="false" />
+        <activity
+            android:name=".DueloDivision"
+            android:exported="false" />
+        <activity
+            android:name=".DueloMultiplicacion"
+            android:exported="false" />
+        <activity
+            android:name=".DueloResta"
+            android:exported="false" />
+        <activity
+            android:name=".DueloSuma"
+            android:exported="false" />
+        <activity
+            android:name=".MainDuelo"
+            android:exported="false" />
+        <activity
+            android:name=".MainJuego"
+            android:exported="false" />
+        <activity
+            android:name=".JuegoDivision"
+            android:exported="false" />
+        <activity
+            android:name=".JuegoMultiplicacion"
+            android:exported="false" />
+        <activity
+            android:name=".JuegoResta"
+            android:exported="false" />
+        <activity
+            android:name=".JuegoSuma"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
