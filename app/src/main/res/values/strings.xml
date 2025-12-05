@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">Números Divertidos</string>
     <string-array name="opciones_array">
-        <item >Suma</item>
+        <item>Suma</item>
         <item>Resta</item>
         <item>Multiplicación</item>
         <item>División</item>
     </string-array>
+
+    <string name="nota" >Nota: estos datos se toman de "Juego", "Exámen" y "Prueba"</string>
 
 </resources>

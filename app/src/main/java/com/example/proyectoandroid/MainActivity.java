@@ -53,8 +53,15 @@ public class MainActivity extends AppCompatActivity {
     public void Salir(View v){
         finish();
     }
+
     public void onClicAyuda(View v){
         Intent intent = new Intent(this, Ayuda.class);
+        startActivity(intent);
+        Sonidos.reproducir(this,"clic");
+    }
+
+    public void onClicEstadisticas(View v){
+        Intent intent = new Intent(this, Estadisticas.class);
         startActivity(intent);
         Sonidos.reproducir(this,"clic");
     }

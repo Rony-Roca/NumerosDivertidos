@@ -84,10 +84,12 @@ public class PruebaMultiplicacion extends AppCompatActivity {
             contarCorrectos++;
             tvCorrectos.setText(String.valueOf(contarCorrectos));
             Sonidos.reproducir(this, "okis");
+            EstadisticasManager.sumarAcierto(this);
         } else {
             contarFallidos++;
             tvIncorrectos.setText(String.valueOf(contarFallidos));
             Sonidos.reproducir(this, "no");
+            EstadisticasManager.sumarFallo(this);
         }
         contador++;
         jugar();
